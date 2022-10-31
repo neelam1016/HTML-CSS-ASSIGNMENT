@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {
+    float: right;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+ul.topnav li.right {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 35px;
+}
+
+ul.topnav li.right-slogan {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top:30px;
+    font-size: 20px;
+}
+.bg-img {
+    /* background-color: #f0e68c; */
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background: url("./images/bg.jpg") no-repeat fixed 250px 20px; */
+    /* background: url("./images/bg.jpg") no-repeat cover; */
+
+  }
+  
+  .bg-img h1 {
+    color: aqua;
+    font-size: 60;
+    text-align: center;
+  }
+  
+  .bg-img p {
+    color: white;
+    font-family: monospace;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    text-align: center;
+  }
+  
+  .bg-img-btn {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 0 50px 0;
+  
+  
+  }
+    
+  .bg-btn-com{
+    font-size: 30px;
+    padding: 10px;
+  }
+  
+  .bg-btn1 {
+    background: green;
+  }
+  
+  .bg-btn2{
+    background-color: blue;
+  }
+
+ .card{
+  display: flex;
+  flex-direction: row;  
+  justify-content: center;
+  gap:30px;
+ }
+ .card-wrapper{
+  height: 300px;
+  width: 27%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ .card-img1{
+   height: 70%;
+   width: 94%;
+   margin: 10px 0 0 10px;
+
+ }
+ .card-wrapper img{
+  display: flex;
+  flex-direction: column;
+ }
+ .card-img2{
+  height: 60px;
+  width: 60px ;
+  padding-top: 10px;
+  padding-left: 10px;
+ }
+
+ .card-img3{
+  height: 70px;
+  width: 70px ;
+  border-radius: 50%;
+ }
+ 
+ .card-wrapper1{
+  height: auto;
+  width: 27%;
+  
+ }
+
+ .details1{
+  padding-left:10px ;
+  padding-top: 10px;
+ }
+
+ .details1 h3{
+  color: gray;
+ }
+
+ .details1 p{
+  font-size: 18px;
+ }
+
+ .line{
+  margin: 50px 15px 30px 15px;
+ 
+ }
+ .line2{
+  margin: 30px 15px 30px 15px;
+ 
+ }
+
+ .gfont {
+  text-align: left;
+  margin-top: 30px;
+  
+}
+
+.gfont ul li {
+  list-style: none;
+  display: inline-block;
+  
+  }
+
+.gfont ul li a {
+  text-decoration: none;
+
+}
+
+.gf {
+  font-size: 20px;
+
+}
+
+.gfont1 {
+  font-family: "Unlock", cursive;
+  color: grey;
+  font-size: 33px;
+  margin-left: 20px;
+}
+
+.gfont2 {
+  font-family: "Potta One", cursive;
+  font-size: 33px;
+  margin-left: 20px;
+  color: brown;
+}
+
+.gfont3 {
+  font-family: "Text Me One", sans-serif;
+  color: salmon;
+  font-size: 33px;
+  margin-left: 20px;
+}
+
+.gfont4 {
+  font-family: "Kumar One", cursive;
+  font-size: 33px;
+  margin-left: 20px;
+}
+
+.gfont5 {
+  font-size: 30px;
+  color: 00b9ff;
+  margin-left: 20px;
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  padding-left: 50px;
+
+}
+
+.footer ul {
+  list-style: none;
+
+
+
+}
+
+.footer ul li {
+  text-align: start;
+
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: gray;
+}
+
+
+
+.ff {
+  color: white;
+}
+
+.logo {
+  display: flex;
+  margin-left: 180px;
+  font-size: 20px;
+  gap: 15px;
+}
+
+.logo ul li a {
+  color: white;
+}
+
+.c {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  text-align: end;
+  width: auto;
+}
+
+.logo1 p{
+  color: grey;
+  margin-left: 50px; 
+  font-display: left;
+}
+
+@media screen and (max-width: 600px) {
+
+    ul.topnav li.right,ul.topnav li.right-slogan,
+    ul.topnav li {
+        float: none;
+    }
+    ul.topnav li.right-slogan{
+        padding-top: 0px;
+    }
+    .bg-img{
+        width: 100%;
+        height: auto;
+    }
+    .bg-btn-com{
+      font-size: 20px;
+    }
+    .card{
+      flex-direction: column; 
+      margin-bottom: 10px;
+     }
+     .card-wrapper{
+      width: 80%;
+      margin-left: 10%;
+     }
+     .card-wrapper1{
+      height: auto;
+      width: auto;
+     }
+     
+     .s1{
+      padding-left: 40px;
+      padding-right: 40px;
+     }
+
+    .footer{
+      display: flex;
+      flex-direction: column;
+      padding-left: 0px;
+      
+      }
+      .footer ul li {
+        text-align: center;
+      } 
+      .logo{
+       margin-left: 145px;
+      }
+      .logo1 p{
+        margin-left: 10px;
+      }
+
+
+.c{
+  padding: 0px;
+  text-align: center;
+}
+      
+}
